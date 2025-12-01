@@ -1,12 +1,20 @@
+<p>
 <!DOCTYPE html>
 <html>
 <head>
+
+
+    <!-- to workers... this is 11 year old Yujal speaking... 
+     if anything wrong please contact me before taking control-->
+
+
+
         <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>
      Yujal search
     </title>
-      <link rel="icon" type="image/x-icon" href="logotitlepicfinal.png">
+      <link rel="icon" type="image/x-icon" href="logotitlepic.png.png">
     <style>
 .search-size{
     width: 500px;
@@ -29,44 +37,18 @@ body{
     </style>
 </head>
 <body>
-    <img src="finallogo.jpeg.png">
+    <p></p> <a href="file:///home/chronos/u-f3e9a39adcfab040a6f1c46ca1212e94351ba3f7/MyFiles/Yujal%20search/Yujal%20search%20copyright%20page.html">
+    <img src="logotitlepic.png.png">
+    </a>
     <br>
 <forms>
-    <label> </label>
- <input class="search-size" type="text"placeholder="Yujal Search bar:" id="Yujal search">
-  <button class="search button"onclick="openPage()">Search</button>
-  <br>
-  <br>
-  <br>
-  <p> already have acount? log in:</p>
-        <br>
-          <label for="username">Username:</label>
-        <input type="text" id="username" 
-               name="username" required>
-        <label for="email">Email:</label>
-        <input type="email" id="email" 
-               name="email" required>
-        <label for="password">Password:</label>
-        <input type="password" id="password" 
-               name="password" required>
-        <button type="button" 
-                id="submitButton">
-              Submit
-          </button>
-
+    <label for="text"></label>
+ <input onclick="alert('Welcome User! Yujal search hasnt reached the tech to ')" class="search-size" type="click=" value="Search">
 
  
 </forms>
-      <script>
-        document.addEventListener(
-              'DOMContentLoaded', () => {
-            document.getElementById('submitButton').
-                addEventListener('click', function () {
-                    alert('Form submitted!');
-                });
-        });
-    </script>  
 
 </body>
 
 </html>
+</p>
