@@ -1,1 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+     Yujal search
+    </title>
+      <link rel="icon" type="image/x-icon" href="logotitlepicfinal.png">
+    <style>
+.search-size{
+    width: 500px;
+    height: 50px;
+    
 
+}
+body{
+    text-align: center;
+}
+.center script{
+    text-align: center;
+}
+.search button{
+    width: 100px;
+    height: 100px;
+}
+
+
+    </style>
+</head>
+<body>
+    <img src="finallogo.jpeg.png">
+    <br>
+<forms>
+    <label> </label>
+ <input class="search-size" type="text"placeholder="Yujal Search bar:" id="Yujal search">
+  <button class="search button"onclick="openPage()">Search</button>
+  <br>
+  <br>
+  <br>
+  <p> already have acount? log in:</p>
+        <br>
+          <label for="username">Username:</label>
+        <input type="text" id="username" 
+               name="username" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" 
+               name="email" required>
+        <label for="password">Password:</label>
+        <input type="password" id="password" 
+               name="password" required>
+        <button type="button" 
+                id="submitButton">
+              Submit
+          </button>
+
+
+ 
+</forms>
+      <script>
+        document.addEventListener(
+              'DOMContentLoaded', () => {
+            document.getElementById('submitButton').
+                addEventListener('click', function () {
+                    alert('Form submitted!');
+                });
+        });
+    </script>  
+
+</body>
+
+</html>
