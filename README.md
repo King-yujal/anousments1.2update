@@ -1,2 +1,3 @@
 # king-Yujal-search engine
-game hub, a place where you find cool games on your school computer unblocked games
+my search engine, i have realized that in google it takes too long for a comany websites to load like if your trying to load nike, it takes 5 minites to get there becuse of other websites like temu show that they have it in there website, and theres lots more... but you have to scroll down to see the nike website...
+in this search engine you can get the website brand your looking for
